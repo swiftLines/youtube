@@ -11,3 +11,8 @@ def download_video(url, save_path):
     print('Video downloaded successfully!')
   except Exception as e:
     print(e)
+
+url = 'https://www.youtube.com/watch?v=KPsL48s-dCA&t=4832s'
+save_path = 
+
+download_video(url, save_path)
